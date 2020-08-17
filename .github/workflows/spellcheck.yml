@@ -22,7 +22,7 @@ jobs:
 
     # Runs a single command using the runners shell
     - name: Run spell checker action
-      uses: tonydiaz/bing-spellcheck-github-action@spellcheck
+      uses: tonydiaz/bing-spellcheck-github-action@main
       with:
         spellchecker-key: ${{ secrets.SPELLCHECKER_KEY }}
         spellchecker-endpoint: ${{ secrets.SPELLCHECKER_ENDPOINT }}
