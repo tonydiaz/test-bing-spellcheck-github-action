@@ -6,7 +6,7 @@ on:
     types: [ created ]
 
 jobs:
-  # This workflow contains a single job called "spellcheck"
+  # This workflow contains a single job called "spell-check"
   spell-check:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
