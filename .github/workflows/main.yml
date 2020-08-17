@@ -27,3 +27,4 @@ jobs:
         spellchecker-key: ${{ secrets.SPELLCHECKER_KEY }}
         spellchecker-endpoint: ${{ secrets.SPELLCHECKER_ENDPOINT }}
         spellcheck-confidence: 0.90
+        github-secret: ${{ secrets.GITHUB_TOKEN }}
